@@ -9,7 +9,7 @@ public class PrimeNumberByJava8 {
 
     public static void main(String[] args) {
 
-        int [] a = {3,8,7,5,44,23,29,65,77};
+        int [] a = {3,8,7,5,44,23,29,65,77,57};
 
        List<Integer> primeNumbers2= Arrays.stream(a).filter(number -> IntStream.range(2,number)
                 .noneMatch(divider -> number % divider == 0))
