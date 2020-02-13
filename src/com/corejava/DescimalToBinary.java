@@ -25,7 +25,7 @@ public class DescimalToBinary {
         System.out.println(sb.reverse().toString());
 
 
-        //////  Or  Next Way to print
+        //////  Or  Next Way to print Binary Number
         System.out.println(Integer.toBinaryString(number));
     }
 
